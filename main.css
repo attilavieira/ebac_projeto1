@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #19310f;  
+    color: #fbb51c;
+}
+
+body {
+    font-family: 'Martel', serif;
+    background-color: #fceed5;
+}
+
+header,
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fbb51c;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 72px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fbb51c;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width:100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.vocation-gifs img {
+    height: 100px;
+}
+
+.vocation-gifs li {
+    display: inline;
+    margin-right: 10%;
+}
+
+.img-intro{
+    height: 400px;
+    margin-right: 32px;
+}
+
+section {
+    padding: 24px;
+    color: #5a2800;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+#container-druid,
+#container-knight,
+#container-paladin,
+#container-sorcerer {
+    margin-top: 50px;
+}
+
+.img-monster{
+    height: 400px;
+    margin-right: 32px;
+}
+
+.img-quest{
+    height: 400px;
+    margin-right: 32px;
+}
+
+.service-agreement {
+    font-size: 10px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.radio-button {
+    display: inline;
+    width: 50px;
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #fbb51c;
+    color: #5a2800;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f5c969;
+}
